@@ -1,0 +1,10 @@
+# nixpacks.toml
+
+# Use the Makefile to build the application
+[phases.build]
+cmd = "make build"
+
+# Use the Makefile to start the application
+[phases.start]
+cmd = "./bin/sber-scrape"
+
