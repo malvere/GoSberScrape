@@ -2,7 +2,7 @@
 
 # Use the Makefile to build the application
 [phases.build]
-cmd = "make build"
+cmd = "go build -v -o ./bin/sber-scrape ./cmd/sber-scrape"
 
 # Use the Makefile to start the application
 [phases.start]
